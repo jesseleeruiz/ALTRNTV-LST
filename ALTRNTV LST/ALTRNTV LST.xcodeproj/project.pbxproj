@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80FEEAF623E93DDD0006C0C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEEAF523E93DDD0006C0C2 /* AppDelegate.swift */; };
+		80FEEAF823E93DDD0006C0C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEEAF723E93DDD0006C0C2 /* SceneDelegate.swift */; };
+		80FEEAFA23E93DDD0006C0C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEEAF923E93DDD0006C0C2 /* ViewController.swift */; };
+		80FEEAFD23E93DDD0006C0C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80FEEAFB23E93DDD0006C0C2 /* Main.storyboard */; };
+		80FEEB0023E93DDD0006C0C2 /* ALTRNTV_LST.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 80FEEAFE23E93DDD0006C0C2 /* ALTRNTV_LST.xcdatamodeld */; };
+		80FEEB0223E93DE60006C0C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80FEEB0123E93DE60006C0C2 /* Assets.xcassets */; };
+		80FEEB0523E93DE60006C0C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80FEEB0323E93DE60006C0C2 /* LaunchScreen.storyboard */; };
+		80FEEB1023E93DE60006C0C2 /* ALTRNTV_LSTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEEB0F23E93DE60006C0C2 /* ALTRNTV_LSTTests.swift */; };
+		80FEEB1B23E93DE60006C0C2 /* ALTRNTV_LSTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEEB1A23E93DE60006C0C2 /* ALTRNTV_LSTUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80FEEB0C23E93DE60006C0C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80FEEAEA23E93DDD0006C0C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80FEEAF123E93DDD0006C0C2;
+			remoteInfo = "ALTRNTV LST";
+		};
+		80FEEB1723E93DE60006C0C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80FEEAEA23E93DDD0006C0C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80FEEAF123E93DDD0006C0C2;
+			remoteInfo = "ALTRNTV LST";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80FEEAF223E93DDD0006C0C2 /* ALTRNTV LST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ALTRNTV LST.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80FEEAF523E93DDD0006C0C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80FEEAF723E93DDD0006C0C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		80FEEAF923E93DDD0006C0C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80FEEAFC23E93DDD0006C0C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80FEEAFF23E93DDD0006C0C2 /* ALTRNTV_LST.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ALTRNTV_LST.xcdatamodel; sourceTree = "<group>"; };
+		80FEEB0123E93DE60006C0C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80FEEB0423E93DE60006C0C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80FEEB0623E93DE60006C0C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80FEEB0B23E93DE60006C0C2 /* ALTRNTV LSTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ALTRNTV LSTTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80FEEB0F23E93DE60006C0C2 /* ALTRNTV_LSTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALTRNTV_LSTTests.swift; sourceTree = "<group>"; };
+		80FEEB1123E93DE60006C0C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80FEEB1623E93DE60006C0C2 /* ALTRNTV LSTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ALTRNTV LSTUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80FEEB1A23E93DE60006C0C2 /* ALTRNTV_LSTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALTRNTV_LSTUITests.swift; sourceTree = "<group>"; };
+		80FEEB1C23E93DE60006C0C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80FEEB2823E93DFA0006C0C2 /* ALTRNTV LST.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ALTRNTV LST.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80FEEAEF23E93DDD0006C0C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80FEEB0823E93DE60006C0C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80FEEB1323E93DE60006C0C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80FEEAE923E93DDD0006C0C2 = {
+			isa = PBXGroup;
+			children = (
+				80FEEAF423E93DDD0006C0C2 /* ALTRNTV LST */,
+				80FEEB0E23E93DE60006C0C2 /* ALTRNTV LSTTests */,
+				80FEEB1923E93DE60006C0C2 /* ALTRNTV LSTUITests */,
+				80FEEAF323E93DDD0006C0C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80FEEAF323E93DDD0006C0C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80FEEAF223E93DDD0006C0C2 /* ALTRNTV LST.app */,
+				80FEEB0B23E93DE60006C0C2 /* ALTRNTV LSTTests.xctest */,
+				80FEEB1623E93DE60006C0C2 /* ALTRNTV LSTUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80FEEAF423E93DDD0006C0C2 /* ALTRNTV LST */ = {
+			isa = PBXGroup;
+			children = (
+				80FEEB2823E93DFA0006C0C2 /* ALTRNTV LST.entitlements */,
+				80FEEAF523E93DDD0006C0C2 /* AppDelegate.swift */,
+				80FEEAF723E93DDD0006C0C2 /* SceneDelegate.swift */,
+				80FEEAF923E93DDD0006C0C2 /* ViewController.swift */,
+				80FEEAFB23E93DDD0006C0C2 /* Main.storyboard */,
+				80FEEB0123E93DE60006C0C2 /* Assets.xcassets */,
+				80FEEB0323E93DE60006C0C2 /* LaunchScreen.storyboard */,
+				80FEEB0623E93DE60006C0C2 /* Info.plist */,
+				80FEEAFE23E93DDD0006C0C2 /* ALTRNTV_LST.xcdatamodeld */,
+			);
+			path = "ALTRNTV LST";
+			sourceTree = "<group>";
+		};
+		80FEEB0E23E93DE60006C0C2 /* ALTRNTV LSTTests */ = {
+			isa = PBXGroup;
+			children = (
+				80FEEB0F23E93DE60006C0C2 /* ALTRNTV_LSTTests.swift */,
+				80FEEB1123E93DE60006C0C2 /* Info.plist */,
+			);
+			path = "ALTRNTV LSTTests";
+			sourceTree = "<group>";
+		};
+		80FEEB1923E93DE60006C0C2 /* ALTRNTV LSTUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80FEEB1A23E93DE60006C0C2 /* ALTRNTV_LSTUITests.swift */,
+				80FEEB1C23E93DE60006C0C2 /* Info.plist */,
+			);
+			path = "ALTRNTV LSTUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80FEEAF123E93DDD0006C0C2 /* ALTRNTV LST */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80FEEB1F23E93DE60006C0C2 /* Build configuration list for PBXNativeTarget "ALTRNTV LST" */;
+			buildPhases = (
+				80FEEAEE23E93DDD0006C0C2 /* Sources */,
+				80FEEAEF23E93DDD0006C0C2 /* Frameworks */,
+				80FEEAF023E93DDD0006C0C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ALTRNTV LST";
+			productName = "ALTRNTV LST";
+			productReference = 80FEEAF223E93DDD0006C0C2 /* ALTRNTV LST.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80FEEB0A23E93DE60006C0C2 /* ALTRNTV LSTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80FEEB2223E93DE70006C0C2 /* Build configuration list for PBXNativeTarget "ALTRNTV LSTTests" */;
+			buildPhases = (
+				80FEEB0723E93DE60006C0C2 /* Sources */,
+				80FEEB0823E93DE60006C0C2 /* Frameworks */,
+				80FEEB0923E93DE60006C0C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80FEEB0D23E93DE60006C0C2 /* PBXTargetDependency */,
+			);
+			name = "ALTRNTV LSTTests";
+			productName = "ALTRNTV LSTTests";
+			productReference = 80FEEB0B23E93DE60006C0C2 /* ALTRNTV LSTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80FEEB1523E93DE60006C0C2 /* ALTRNTV LSTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80FEEB2523E93DE70006C0C2 /* Build configuration list for PBXNativeTarget "ALTRNTV LSTUITests" */;
+			buildPhases = (
+				80FEEB1223E93DE60006C0C2 /* Sources */,
+				80FEEB1323E93DE60006C0C2 /* Frameworks */,
+				80FEEB1423E93DE60006C0C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80FEEB1823E93DE60006C0C2 /* PBXTargetDependency */,
+			);
+			name = "ALTRNTV LSTUITests";
+			productName = "ALTRNTV LSTUITests";
+			productReference = 80FEEB1623E93DE60006C0C2 /* ALTRNTV LSTUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80FEEAEA23E93DDD0006C0C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Jesse Ruiz";
+				TargetAttributes = {
+					80FEEAF123E93DDD0006C0C2 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					80FEEB0A23E93DE60006C0C2 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 80FEEAF123E93DDD0006C0C2;
+					};
+					80FEEB1523E93DE60006C0C2 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 80FEEAF123E93DDD0006C0C2;
+					};
+				};
+			};
+			buildConfigurationList = 80FEEAED23E93DDD0006C0C2 /* Build configuration list for PBXProject "ALTRNTV LST" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80FEEAE923E93DDD0006C0C2;
+			productRefGroup = 80FEEAF323E93DDD0006C0C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80FEEAF123E93DDD0006C0C2 /* ALTRNTV LST */,
+				80FEEB0A23E93DE60006C0C2 /* ALTRNTV LSTTests */,
+				80FEEB1523E93DE60006C0C2 /* ALTRNTV LSTUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80FEEAF023E93DDD0006C0C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FEEB0523E93DE60006C0C2 /* LaunchScreen.storyboard in Resources */,
+				80FEEB0223E93DE60006C0C2 /* Assets.xcassets in Resources */,
+				80FEEAFD23E93DDD0006C0C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80FEEB0923E93DE60006C0C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80FEEB1423E93DE60006C0C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80FEEAEE23E93DDD0006C0C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FEEAFA23E93DDD0006C0C2 /* ViewController.swift in Sources */,
+				80FEEB0023E93DDD0006C0C2 /* ALTRNTV_LST.xcdatamodeld in Sources */,
+				80FEEAF623E93DDD0006C0C2 /* AppDelegate.swift in Sources */,
+				80FEEAF823E93DDD0006C0C2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80FEEB0723E93DE60006C0C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FEEB1023E93DE60006C0C2 /* ALTRNTV_LSTTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80FEEB1223E93DE60006C0C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FEEB1B23E93DE60006C0C2 /* ALTRNTV_LSTUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80FEEB0D23E93DE60006C0C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80FEEAF123E93DDD0006C0C2 /* ALTRNTV LST */;
+			targetProxy = 80FEEB0C23E93DE60006C0C2 /* PBXContainerItemProxy */;
+		};
+		80FEEB1823E93DE60006C0C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80FEEAF123E93DDD0006C0C2 /* ALTRNTV LST */;
+			targetProxy = 80FEEB1723E93DE60006C0C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80FEEAFB23E93DDD0006C0C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80FEEAFC23E93DDD0006C0C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80FEEB0323E93DE60006C0C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80FEEB0423E93DE60006C0C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80FEEB1D23E93DE60006C0C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80FEEB1E23E93DE60006C0C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80FEEB2023E93DE60006C0C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "ALTRNTV LST/ALTRNTV LST.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_TEAM = 5792949ZYF;
+				INFOPLIST_FILE = "ALTRNTV LST/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jesseruiz.ALTRNTV-LST";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80FEEB2123E93DE60006C0C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "ALTRNTV LST/ALTRNTV LST.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_TEAM = 5792949ZYF;
+				INFOPLIST_FILE = "ALTRNTV LST/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jesseruiz.ALTRNTV-LST";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		80FEEB2323E93DE70006C0C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5792949ZYF;
+				INFOPLIST_FILE = "ALTRNTV LSTTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jesseruiz.ALTRNTV-LSTTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALTRNTV LST.app/ALTRNTV LST";
+			};
+			name = Debug;
+		};
+		80FEEB2423E93DE70006C0C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5792949ZYF;
+				INFOPLIST_FILE = "ALTRNTV LSTTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jesseruiz.ALTRNTV-LSTTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALTRNTV LST.app/ALTRNTV LST";
+			};
+			name = Release;
+		};
+		80FEEB2623E93DE70006C0C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5792949ZYF;
+				INFOPLIST_FILE = "ALTRNTV LSTUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jesseruiz.ALTRNTV-LSTUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ALTRNTV LST";
+			};
+			name = Debug;
+		};
+		80FEEB2723E93DE70006C0C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5792949ZYF;
+				INFOPLIST_FILE = "ALTRNTV LSTUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jesseruiz.ALTRNTV-LSTUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ALTRNTV LST";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80FEEAED23E93DDD0006C0C2 /* Build configuration list for PBXProject "ALTRNTV LST" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80FEEB1D23E93DE60006C0C2 /* Debug */,
+				80FEEB1E23E93DE60006C0C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80FEEB1F23E93DE60006C0C2 /* Build configuration list for PBXNativeTarget "ALTRNTV LST" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80FEEB2023E93DE60006C0C2 /* Debug */,
+				80FEEB2123E93DE60006C0C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80FEEB2223E93DE70006C0C2 /* Build configuration list for PBXNativeTarget "ALTRNTV LSTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80FEEB2323E93DE70006C0C2 /* Debug */,
+				80FEEB2423E93DE70006C0C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80FEEB2523E93DE70006C0C2 /* Build configuration list for PBXNativeTarget "ALTRNTV LSTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80FEEB2623E93DE70006C0C2 /* Debug */,
+				80FEEB2723E93DE70006C0C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		80FEEAFE23E93DDD0006C0C2 /* ALTRNTV_LST.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				80FEEAFF23E93DDD0006C0C2 /* ALTRNTV_LST.xcdatamodel */,
+			);
+			currentVersion = 80FEEAFF23E93DDD0006C0C2 /* ALTRNTV_LST.xcdatamodel */;
+			path = ALTRNTV_LST.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 80FEEAEA23E93DDD0006C0C2 /* Project object */;
+}
