@@ -166,9 +166,9 @@
 		80FEEBAA2405CAD00006C0C2 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				80FEEBAD2405CB700006C0C2 /* Core Data */,
 				80FEEBAE2405CBA90006C0C2 /* TaskRepresentation.swift */,
 				80FEEBB02405CBF80006C0C2 /* Task+Convenience.swift */,
+				80FEEBAD2405CB700006C0C2 /* Core Data */,
 			);
 			path = Models;
 			sourceTree = "<group>";
