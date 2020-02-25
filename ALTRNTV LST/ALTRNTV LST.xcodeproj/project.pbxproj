@@ -19,6 +19,7 @@
 		80FEEBAC2405CADE0006C0C2 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEEBAB2405CADE0006C0C2 /* CoreDataStack.swift */; };
 		80FEEBAF2405CBA90006C0C2 /* TaskRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEEBAE2405CBA90006C0C2 /* TaskRepresentation.swift */; };
 		80FEEBB12405CBF80006C0C2 /* Task+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEEBB02405CBF80006C0C2 /* Task+Convenience.swift */; };
+		80FEEBB42405D2300006C0C2 /* TaskController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEEBB32405D2300006C0C2 /* TaskController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		80FEEBAB2405CADE0006C0C2 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		80FEEBAE2405CBA90006C0C2 /* TaskRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRepresentation.swift; sourceTree = "<group>"; };
 		80FEEBB02405CBF80006C0C2 /* Task+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+Convenience.swift"; sourceTree = "<group>"; };
+		80FEEBB32405D2300006C0C2 /* TaskController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 			children = (
 				80FEEB2823E93DFA0006C0C2 /* ALTRNTV LST.entitlements */,
 				80FEEBAA2405CAD00006C0C2 /* Models */,
+				80FEEBB22405D2160006C0C2 /* Model Controller */,
 				80FEEBA924049FC50006C0C2 /* View Controllers */,
 				80FEEBA824049FB70006C0C2 /* Storyboards */,
 				80FEEBA724049FAA0006C0C2 /* Resources */,
@@ -180,6 +183,14 @@
 				80FEEBAB2405CADE0006C0C2 /* CoreDataStack.swift */,
 			);
 			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		80FEEBB22405D2160006C0C2 /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				80FEEBB32405D2300006C0C2 /* TaskController.swift */,
+			);
+			path = "Model Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,6 +330,7 @@
 				80FEEBB12405CBF80006C0C2 /* Task+Convenience.swift in Sources */,
 				80FEEBAF2405CBA90006C0C2 /* TaskRepresentation.swift in Sources */,
 				80FEEBA62404371A0006C0C2 /* TasksTableViewController.swift in Sources */,
+				80FEEBB42405D2300006C0C2 /* TaskController.swift in Sources */,
 				80FEEAF823E93DDD0006C0C2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
