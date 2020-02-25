@@ -17,6 +17,7 @@
 		80FEEB1B23E93DE60006C0C2 /* ALTRNTV_LSTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEEB1A23E93DE60006C0C2 /* ALTRNTV_LSTUITests.swift */; };
 		80FEEBA62404371A0006C0C2 /* TasksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEEBA52404371A0006C0C2 /* TasksTableViewController.swift */; };
 		80FEEBAC2405CADE0006C0C2 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEEBAB2405CADE0006C0C2 /* CoreDataStack.swift */; };
+		80FEEBAF2405CBA90006C0C2 /* TaskRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEEBAE2405CBA90006C0C2 /* TaskRepresentation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		80FEEB2823E93DFA0006C0C2 /* ALTRNTV LST.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ALTRNTV LST.entitlements"; sourceTree = "<group>"; };
 		80FEEBA52404371A0006C0C2 /* TasksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksTableViewController.swift; sourceTree = "<group>"; };
 		80FEEBAB2405CADE0006C0C2 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		80FEEBAE2405CBA90006C0C2 /* TaskRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRepresentation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,10 +164,19 @@
 		80FEEBAA2405CAD00006C0C2 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				80FEEBAD2405CB700006C0C2 /* Core Data */,
+				80FEEBAE2405CBA90006C0C2 /* TaskRepresentation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		80FEEBAD2405CB700006C0C2 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
 				80FEEAFE23E93DDD0006C0C2 /* ALTRNTV_LST.xcdatamodeld */,
 				80FEEBAB2405CADE0006C0C2 /* CoreDataStack.swift */,
 			);
-			path = Models;
+			path = "Core Data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,6 +313,7 @@
 				80FEEBAC2405CADE0006C0C2 /* CoreDataStack.swift in Sources */,
 				80FEEB0023E93DDD0006C0C2 /* ALTRNTV_LST.xcdatamodeld in Sources */,
 				80FEEAF623E93DDD0006C0C2 /* AppDelegate.swift in Sources */,
+				80FEEBAF2405CBA90006C0C2 /* TaskRepresentation.swift in Sources */,
 				80FEEBA62404371A0006C0C2 /* TasksTableViewController.swift in Sources */,
 				80FEEAF823E93DDD0006C0C2 /* SceneDelegate.swift in Sources */,
 			);
