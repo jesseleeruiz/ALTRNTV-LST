@@ -18,6 +18,7 @@
 		80FEEBA62404371A0006C0C2 /* TasksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEEBA52404371A0006C0C2 /* TasksTableViewController.swift */; };
 		80FEEBAC2405CADE0006C0C2 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEEBAB2405CADE0006C0C2 /* CoreDataStack.swift */; };
 		80FEEBAF2405CBA90006C0C2 /* TaskRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEEBAE2405CBA90006C0C2 /* TaskRepresentation.swift */; };
+		80FEEBB12405CBF80006C0C2 /* Task+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEEBB02405CBF80006C0C2 /* Task+Convenience.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		80FEEBA52404371A0006C0C2 /* TasksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksTableViewController.swift; sourceTree = "<group>"; };
 		80FEEBAB2405CADE0006C0C2 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		80FEEBAE2405CBA90006C0C2 /* TaskRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRepresentation.swift; sourceTree = "<group>"; };
+		80FEEBB02405CBF80006C0C2 /* Task+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+Convenience.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 			children = (
 				80FEEBAD2405CB700006C0C2 /* Core Data */,
 				80FEEBAE2405CBA90006C0C2 /* TaskRepresentation.swift */,
+				80FEEBB02405CBF80006C0C2 /* Task+Convenience.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				80FEEBAC2405CADE0006C0C2 /* CoreDataStack.swift in Sources */,
 				80FEEB0023E93DDD0006C0C2 /* ALTRNTV_LST.xcdatamodeld in Sources */,
 				80FEEAF623E93DDD0006C0C2 /* AppDelegate.swift in Sources */,
+				80FEEBB12405CBF80006C0C2 /* Task+Convenience.swift in Sources */,
 				80FEEBAF2405CBA90006C0C2 /* TaskRepresentation.swift in Sources */,
 				80FEEBA62404371A0006C0C2 /* TasksTableViewController.swift in Sources */,
 				80FEEAF823E93DDD0006C0C2 /* SceneDelegate.swift in Sources */,
