@@ -16,6 +16,7 @@
 		80FEEB1023E93DE60006C0C2 /* ALTRNTV_LSTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEEB0F23E93DE60006C0C2 /* ALTRNTV_LSTTests.swift */; };
 		80FEEB1B23E93DE60006C0C2 /* ALTRNTV_LSTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEEB1A23E93DE60006C0C2 /* ALTRNTV_LSTUITests.swift */; };
 		80FEEBA62404371A0006C0C2 /* TasksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEEBA52404371A0006C0C2 /* TasksTableViewController.swift */; };
+		80FEEBAC2405CADE0006C0C2 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEEBAB2405CADE0006C0C2 /* CoreDataStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		80FEEB1C23E93DE60006C0C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80FEEB2823E93DFA0006C0C2 /* ALTRNTV LST.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ALTRNTV LST.entitlements"; sourceTree = "<group>"; };
 		80FEEBA52404371A0006C0C2 /* TasksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksTableViewController.swift; sourceTree = "<group>"; };
+		80FEEBAB2405CADE0006C0C2 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,14 +105,11 @@
 			isa = PBXGroup;
 			children = (
 				80FEEB2823E93DFA0006C0C2 /* ALTRNTV LST.entitlements */,
-				80FEEAF523E93DDD0006C0C2 /* AppDelegate.swift */,
-				80FEEAF723E93DDD0006C0C2 /* SceneDelegate.swift */,
-				80FEEAFB23E93DDD0006C0C2 /* Main.storyboard */,
-				80FEEB0123E93DE60006C0C2 /* Assets.xcassets */,
-				80FEEB0323E93DE60006C0C2 /* LaunchScreen.storyboard */,
+				80FEEBAA2405CAD00006C0C2 /* Models */,
+				80FEEBA924049FC50006C0C2 /* View Controllers */,
+				80FEEBA824049FB70006C0C2 /* Storyboards */,
+				80FEEBA724049FAA0006C0C2 /* Resources */,
 				80FEEB0623E93DE60006C0C2 /* Info.plist */,
-				80FEEAFE23E93DDD0006C0C2 /* ALTRNTV_LST.xcdatamodeld */,
-				80FEEBA52404371A0006C0C2 /* TasksTableViewController.swift */,
 			);
 			path = "ALTRNTV LST";
 			sourceTree = "<group>";
@@ -131,6 +130,42 @@
 				80FEEB1C23E93DE60006C0C2 /* Info.plist */,
 			);
 			path = "ALTRNTV LSTUITests";
+			sourceTree = "<group>";
+		};
+		80FEEBA724049FAA0006C0C2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				80FEEAF523E93DDD0006C0C2 /* AppDelegate.swift */,
+				80FEEAF723E93DDD0006C0C2 /* SceneDelegate.swift */,
+				80FEEB0123E93DE60006C0C2 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		80FEEBA824049FB70006C0C2 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				80FEEAFB23E93DDD0006C0C2 /* Main.storyboard */,
+				80FEEB0323E93DE60006C0C2 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		80FEEBA924049FC50006C0C2 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				80FEEBA52404371A0006C0C2 /* TasksTableViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		80FEEBAA2405CAD00006C0C2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				80FEEAFE23E93DDD0006C0C2 /* ALTRNTV_LST.xcdatamodeld */,
+				80FEEBAB2405CADE0006C0C2 /* CoreDataStack.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80FEEBAC2405CADE0006C0C2 /* CoreDataStack.swift in Sources */,
 				80FEEB0023E93DDD0006C0C2 /* ALTRNTV_LST.xcdatamodeld in Sources */,
 				80FEEAF623E93DDD0006C0C2 /* AppDelegate.swift in Sources */,
 				80FEEBA62404371A0006C0C2 /* TasksTableViewController.swift in Sources */,
